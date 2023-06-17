@@ -1,37 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+@import url('https://fonts.googleapis.com/css?family=Cormorant Garamond');
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond', arial;
+    color: rgb(26 26 26);
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-size: 1.5rem;
+    font-family: 'Domine', arial;
+    margin-bottom: 7px;
+}
+
+p:first-of-type {
+    font-size: 1rem;
+    color: rgb(77 77 77);
+    margin-bottom: 1.5rem;
+    margin-top: 7px;
+    font-style: italic;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: 'Lusitana', arial;
+    color: rgb(77 77 77);
+    font-size: 1rem;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 39rem;
+}
+
+body {
+    padding: 30px;
 }
